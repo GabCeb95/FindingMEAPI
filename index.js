@@ -1,5 +1,5 @@
 /*
-* API Moviles
+* API FindingME
 */
 
 var express = require('express'),
@@ -32,6 +32,7 @@ app.use(function(req,res) {
 
 //res.render()
 app.listen(app.get('port'),function(){
+	console.log("Say hi to us :)")
 	console.log('Server running on port '+app.get('port'));
 });
 
